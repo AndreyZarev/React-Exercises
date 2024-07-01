@@ -10,7 +10,7 @@ function App() {
   ]
   return (
 
-    <GetMovies movieList={movieList} />
+    <GetMovies movieList={movieList} title="Action" />
 
   )
 }
