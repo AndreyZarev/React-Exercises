@@ -1,17 +1,17 @@
+import GetMovies from "./components/main"
 
-import './App.css'
-import Header from './components/header'
-import Main from './components/main'
-import Footer from './components/footer'
 function App() {
 
-
+  const movieList = [
+    "Godfather",
+    "Superman",
+    "Batman",
+    "Baki"
+  ]
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
+
+    <GetMovies movieList={movieList} />
+
   )
 }
 
