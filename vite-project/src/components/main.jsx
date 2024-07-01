@@ -4,7 +4,7 @@ export default function getMovies(props) {
     return (
         <>
             {console.log(props.movieList)};
-            <MovieTitle title="Action" />
+            <MovieTitle />
             <ul>
                 <li>{props.movieList[0]}</li>
                 <li>{props.movieList[1]}</li>
